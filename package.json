@@ -1,0 +1,18 @@
+{
+  "name": "typeScript-Test-Template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:libaice/typeScript-Test-Template.git",
+  "author": "libaice <libaice147@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx -r dotenv/config src/index.t"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
